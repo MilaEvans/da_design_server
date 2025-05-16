@@ -22,14 +22,14 @@ def get_config(filepath):
 
     parser = SafeConfigParser(os.environ)
 
-    ret = parser.read(filepath)​
+    ret = parser.read(filepath)
 
-    if not ret:​
+    if not ret:
 
-        print('get_config(): Failed to parser.read()')​
+        print('get_config(): Failed to parser.read()')
 
-        return False​
+        return False
 
-    return parser​
+    return parser
 
-​
+
